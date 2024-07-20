@@ -174,6 +174,13 @@ export const golang = createSkillFactory({
   url: 'https://go.dev/',
 });
 
+export const nodejs = createSkillFactory({
+  name: 'Node.JS',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#5FA04E',
+  url: 'https://nodejs.org/',
+});
+
 export const python = createSkillFactory({
   name: 'Python',
   icon: 'simple-icons:python',
@@ -306,7 +313,7 @@ export const kubernetes = createSkillFactory({
 });
 
 export const n8n = createSkillFactory({
-  name: 'n8n',
+  name: 'N8N (Nodemation)',
   icon: 'simple-icons:n8n',
   iconColor: '#EA4B71',
   url: 'https://n8n.io/',
