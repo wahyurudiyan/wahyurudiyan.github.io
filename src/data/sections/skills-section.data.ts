@@ -1,10 +1,8 @@
 import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
-  apolloGraphql,
   astro,
   clojure,
-  cypress,
   docker,
   elasticsearch,
   elixir,
@@ -23,7 +21,6 @@ import {
   python,
   react,
   redis,
-  supabase,
   typescript,
 } from '../helpers/skills';
 
