@@ -9,31 +9,38 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  image: import('@/assets/my-image.png'),
+  fullName: 'Wahyu Rudiyan Saputra',
+  role: 'Senior Backend Engineer',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'Email', value: 'wahyurudiyansaputra@gmail.com', url: 'wahyurudiyansaputra@gmail.com' },
+    { label: 'From', value: 'Jakarta, Indonesia' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
-    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Phone', value: '+62 896 6514 1507' },
+    { label: 'Email', value: 'wahyurudiyansaputra@gmail.com' },
+    { label: 'LinkedIn', value: 'wahyu-rudiyan-s', url: 'https://linkedin.com/in/' },
+    { label: 'GitHub', value: 'wahyurudiyan', url: 'https://github.com/' },
+    { label: 'Website', value: 'wahyurudiyan.dev', url: 'https://wahyurudiyan.dev/', fullRow: true },
   ],
-  description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+  description: `
+    <div style="text-align: justify">
+      <p>
+        I'm a Senior Backend Engineer with expertise in Golang, Python, Typescript, and various technologies including MySQL, Elasticsearch, Redis, Kafka, Docker, and Kubernetes. I've developed impactful systems, improved search functionalities, led high-traffic projects, and re-architected services for efficiency.
+        My experience spans building chatbots from scratch, reducing deployment costs, and working on IoT projects. I’m also passionate about microcontrollers, electronics, and robotics. I am also actively learning Elixir and the Phoenix Framework to broaden my skill set.
+      </p>
+    </div>
+    `,
+  tags: [{ name: 'Open for opportunity' }, { name: 'Open for freelance' }, { name: 'Available for mentoring' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV-Wahyu_Rudiyan.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [
+    github({ url: 'https://github.com/wahyurudiyan' }),
+    linkedin({ url: 'https://linkedin.com/in/wahyu-rudiyan-s' }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;

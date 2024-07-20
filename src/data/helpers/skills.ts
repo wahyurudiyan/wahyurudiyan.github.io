@@ -74,13 +74,6 @@ export const mongoDb = createSkillFactory({
   url: 'https://www.mongodb.com/',
 });
 
-export const nestJs = createSkillFactory({
-  name: 'NestJS',
-  icon: 'simple-icons:nestjs',
-  iconColor: '#E0234E',
-  url: 'https://nestjs.com/',
-});
-
 export const nextJs = createSkillFactory({
   name: 'Next.js',
   icon: 'simple-icons:nextdotjs',
@@ -163,4 +156,158 @@ export const vue = createSkillFactory({
   icon: 'simple-icons:vuedotjs',
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
+});
+
+export const waCloud = createSkillFactory({
+  name: 'Whatsapp Cloud API',
+  icon: 'simple-icons:whatsapp',
+  iconColor: '#25D366',
+  url: 'https://developers.facebook.com/docs/whatsapp/cloud-api/',
+});
+
+// my additional skill sets
+
+export const golang = createSkillFactory({
+  name: 'Golang',
+  icon: 'simple-icons:go',
+  iconColor: '#00ADD8',
+  url: 'https://go.dev/',
+});
+
+export const python = createSkillFactory({
+  name: 'Python',
+  icon: 'simple-icons:python',
+  iconColor: '#3776AB',
+  url: 'https://python.org/',
+});
+
+export const java = createSkillFactory({
+  name: 'Java',
+  icon: 'simple-icons:openjdk',
+  iconColor: '#000000',
+  url: 'https://java.com/',
+});
+
+export const elixir = createSkillFactory({
+  name: 'Elixir',
+  icon: 'simple-icons:elixir',
+  iconColor: '#4B275F',
+  url: 'https://elixir-lang.org/',
+});
+
+export const clojure = createSkillFactory({
+  name: 'Clojure',
+  icon: 'simple-icons:clojure',
+  iconColor: '#5881D8',
+  url: 'https://clojure.org/',
+});
+
+// Framework and protocols
+export const git = createSkillFactory({
+  name: 'Git',
+  icon: 'simple-icons:git',
+  iconColor: '#F05032',
+  url: 'https://git-scm.com/',
+});
+
+export const nestJs = createSkillFactory({
+  name: 'NestJS',
+  icon: 'simple-icons:nestjs',
+  iconColor: '#E0234E',
+  url: 'https://nestjs.com/',
+});
+
+export const phoenixFramework = createSkillFactory({
+  name: 'Phoenix Framework',
+  icon: 'simple-icons:phoenixframework',
+  iconColor: '#FD4F00',
+  url: 'https://nestjs.com/',
+});
+
+export const ginFramework = createSkillFactory({
+  name: 'Gin Framework',
+  icon: 'simple-icons:gin',
+  iconColor: '#008ECF',
+  url: 'https://gin-gonic.com/',
+});
+
+export const django = createSkillFactory({
+  name: 'Django Framework',
+  icon: 'simple-icons:django',
+  iconColor: '#092E20',
+  url: 'https://djangoproject.com/',
+});
+
+export const flutter = createSkillFactory({
+  name: 'Flutter',
+  icon: 'simple-icons:flutter',
+  iconColor: '#02569B',
+  url: 'https://flutter.dev/',
+});
+
+export const graphql = createSkillFactory({
+  name: 'GraphQL',
+  icon: 'simple-icons:graphql',
+  iconColor: '#E10098',
+  url: 'https://graphql.org/',
+});
+
+// Database SQL, NoSQL, and Cache
+
+export const mysql = createSkillFactory({
+  name: 'MySQL',
+  icon: 'simple-icons:mysql',
+  iconColor: '#4479A1',
+  url: 'https://mysql.com/',
+});
+
+export const redis = createSkillFactory({
+  name: 'Redis',
+  icon: 'simple-icons:redis',
+  iconColor: '#FF4438',
+  url: 'https://redis.io/',
+});
+
+export const elasticsearch = createSkillFactory({
+  name: 'Elasticsearch',
+  icon: 'simple-icons:elasticsearch',
+  iconColor: '#005571',
+  url: 'https://elastic.co/',
+});
+
+// Devops and Infra tools
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:amazonwebservices',
+  iconColor: '#232F3E',
+  url: 'https://aws.amazon.com/',
+});
+
+export const awsSqs = createSkillFactory({
+  name: 'AWS SQS',
+  icon: 'simple-icons:amazonsqs',
+  iconColor: '#FF4F8B',
+  url: 'https://aws.amazon.com/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#2496ED',
+  url: 'https://docker.com/',
+});
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'simple-icons:kubernetes',
+  iconColor: '#2496ED',
+  url: 'https://kubernetes.io/',
+});
+
+export const n8n = createSkillFactory({
+  name: 'n8n',
+  icon: 'simple-icons:n8n',
+  iconColor: '#EA4B71',
+  url: 'https://n8n.io/',
 });

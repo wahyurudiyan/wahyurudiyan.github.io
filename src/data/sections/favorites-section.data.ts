@@ -12,78 +12,78 @@ const favoritesSectionData = {
     title: 'Books I read',
     data: [
       {
-        image: import('@/assets/favorites/books/book-1.jpeg'),
-        title: 'The Pragmatic Programmer: From Journeyman to Master',
-        author: 'Andy Hunt, Dave Thomas',
-        url: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
+        image: import('@/assets/favorites/books/book-start-with-why.png'),
+        title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action',
+        author: 'Simon Sinek',
+        url: 'https://www.goodreads.com/book/show/7108725-start-with-why?ref=nav_sb_ss_1_14',
       },
       {
-        image: import('@/assets/favorites/books/book-2.jpg'),
-        title: 'Domain-Driven Design: Tackling Complexity in the Heart of Software',
-        author: 'Eric Evans',
-        url: 'https://www.goodreads.com/book/show/179133.Domain_Driven_Design',
+        image: import('@/assets/favorites/books/book-rich-dad.png'),
+        title: 'Rich Dad Poor Dad',
+        author: 'Robert T. Kiyosaki',
+        url: 'https://www.goodreads.com/book/show/29502358-wisdom-from-rich-dad-poor-dad',
       },
       {
-        image: import('@/assets/favorites/books/book-3.jpeg'),
-        title: 'Clean Code: A Handbook of Agile Software Craftsmanship',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/3735293-clean-code',
+        image: import('@/assets/favorites/books/book-think-and-grow-rich.png'),
+        title: 'The Think and Grow Rich Workbook: The Practical Steps to Transforming Your Desires into Riches',
+        author: 'Napoleon Hill',
+        url: 'https://www.goodreads.com/book/show/29502358-wisdom-from-rich-dad-poor-dad',
       },
       {
-        image: import('@/assets/favorites/books/book-4.jpeg'),
-        title: 'The Clean Coder: A Code of Conduct for Professional Programmers',
-        author: 'Robert C. Martin',
-        url: 'https://www.goodreads.com/book/show/10284614-the-clean-coder',
+        image: import('@/assets/favorites/books/book-taotc.png'),
+        title: 'The Art of Thinking Clearly',
+        author: 'Rolf Dobeli',
+        url: 'https://www.goodreads.com/book/show/16248196-the-art-of-thinking-clearly?from_search=true&from_srp=true&qid=ty1EF97IXb&rank=1',
       },
     ],
   },
-  people: {
-    title: 'People I learn from',
-    data: [
-      {
-        image: import('@/assets/favorites/people/person-1.jpg'),
-        name: 'Kent C. Dodds',
-        url: 'https://kentcdodds.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-2.jpeg'),
-        name: 'Kent Beck',
-        url: 'https://www.kentbeck.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-3.jpeg'),
-        name: 'Eric Evans',
-        url: 'https://www.domainlanguage.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-4.jpeg'),
-        name: 'Martin Fowler',
-        url: 'https://martinfowler.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-5.jpg'),
-        name: 'Robert C. Martin',
-        url: 'http://cleancoder.com/',
-      },
-      {
-        image: import('@/assets/favorites/people/person-6.jpeg'),
-        name: 'Adam Dymitruk',
-        url: 'https://eventmodeling.org/',
-      },
-    ],
-  },
+  // people: {
+  //   title: 'People I learn from',
+  //   data: [
+  //     {
+  //       image: import('@/assets/favorites/people/person-1.jpg'),
+  //       name: 'Kent C. Dodds',
+  //       url: 'https://kentcdodds.com/',
+  //     },
+  //     {
+  //       image: import('@/assets/favorites/people/person-2.jpeg'),
+  //       name: 'Kent Beck',
+  //       url: 'https://www.kentbeck.com/',
+  //     },
+  //     {
+  //       image: import('@/assets/favorites/people/person-3.jpeg'),
+  //       name: 'Eric Evans',
+  //       url: 'https://www.domainlanguage.com/',
+  //     },
+  //     {
+  //       image: import('@/assets/favorites/people/person-4.jpeg'),
+  //       name: 'Martin Fowler',
+  //       url: 'https://martinfowler.com/',
+  //     },
+  //     {
+  //       image: import('@/assets/favorites/people/person-5.jpg'),
+  //       name: 'Robert C. Martin',
+  //       url: 'http://cleancoder.com/',
+  //     },
+  //     {
+  //       image: import('@/assets/favorites/people/person-6.jpeg'),
+  //       name: 'Adam Dymitruk',
+  //       url: 'https://eventmodeling.org/',
+  //     },
+  //   ],
+  // },
   videos: {
     title: 'Videos I watched',
     data: [
       {
-        image: import('@/assets/favorites/videos/video-1.jpeg'),
-        title: 'Building Resilient Frontend Architecture • Monica Lent • GOTO 2019',
-        url: 'https://youtu.be/TqfbAXCCVwE',
+        image: import('@/assets/favorites/videos/video-elixir-conf.png'),
+        title: 'Keynote: Gang of None? Design Patterns in Elixir - José Valim | ElixirConf EU 2024',
+        url: 'https://youtu.be/agkXUp0hCW8?si=KQE1TYsX9WOpxy1-',
       },
       {
-        image: import('@/assets/favorites/videos/video-2.jpeg'),
-        title: 'Scaling Yourself • Scott Hanselman • GOTO 2012',
-        url: 'https://youtu.be/FS1mnISoG7U',
+        image: import('@/assets/favorites/videos/video-hijra-elixir.png'),
+        title: 'Hijra Engineering Talks: Aplikasi Web dengan Elixir dan Phoenix',
+        url: 'https://www.youtube.com/watch?v=iBO5Aff257c',
       },
       {
         image: import('@/assets/favorites/videos/video-3.jpeg'),
@@ -102,28 +102,16 @@ const favoritesSectionData = {
         url: 'https://www.youtube.com/c/Fireship',
       },
       {
+        image: import('@/assets/favorites/media/image-elixir.png'),
+        title: 'ElixirConf',
+        type: 'Youtube Channel',
+        url: 'https://www.youtube.com/@ElixirConf',
+      },
+      {
         image: import('@/assets/favorites/media/media-2.jpeg'),
         title: 'Healthy Software Developer',
         type: 'YouTube channel',
         url: 'https://www.youtube.com/channel/UCfe_znKY1ukrqlGActlFmaQ',
-      },
-      {
-        image: import('@/assets/favorites/media/media-3.png'),
-        title: 'Bytes',
-        type: 'Newsletter',
-        url: 'https://bytes.dev/',
-      },
-      {
-        image: import('@/assets/favorites/media/media-4.png'),
-        title: 'TypeScript Weekly',
-        type: 'Newsletter',
-        url: 'https://typescript-weekly.com/',
-      },
-      {
-        image: import('@/assets/favorites/media/media-5.jpeg'),
-        title: 'Front End Happy Hour',
-        type: 'Podcast',
-        url: 'https://www.frontendhappyhour.com/',
       },
       {
         image: import('@/assets/favorites/media/media-6.webp'),

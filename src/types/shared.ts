@@ -1,4 +1,4 @@
-import type { CircleFlags, Fa6Brands, Fa6Solid, Ri, SimpleIcons } from 'iconify-icon-names';
+import type { CircleFlags, Fa6Brands, Fa6Solid, Ri, SimpleIcons } from 'iconify-icon-list-names';
 
 /**
  * Name of the icon from the iconify library.
