@@ -31,7 +31,7 @@ const mainSectionData = {
       </p>
     </div>
     `,
-  tags: [{ name: 'Open for opportunity' }, { name: 'Open for freelance' }, { name: 'Available for mentoring' }],
+  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
