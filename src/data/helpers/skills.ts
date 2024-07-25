@@ -209,6 +209,13 @@ export const clojure = createSkillFactory({
   url: 'https://clojure.org/',
 });
 
+export const ruby = createSkillFactory({
+  name: 'Ruby',
+  icon: 'simple-icons:ruby',
+  iconColor: '#CC342D',
+  url: 'https://ruby-lang.org/',
+});
+
 // Framework and protocols
 export const git = createSkillFactory({
   name: 'Git',
@@ -243,6 +250,13 @@ export const django = createSkillFactory({
   icon: 'simple-icons:django',
   iconColor: '#092E20',
   url: 'https://djangoproject.com/',
+});
+
+export const rails = createSkillFactory({
+  name: 'Ruby on Rails',
+  icon: 'simple-icons:rubyonrails',
+  iconColor: '#D30001',
+  url: 'https://rubyonrails.org/',
 });
 
 export const flutter = createSkillFactory({

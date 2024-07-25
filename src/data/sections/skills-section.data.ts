@@ -19,8 +19,10 @@ import {
   phoenixFramework,
   postgreSql,
   python,
+  rails,
   react,
   redis,
+  ruby,
   typescript,
 } from '../helpers/skills';
 
@@ -54,6 +56,8 @@ const skillsSectionData = {
     {
       title: 'Knowledgeable in various tech stacks such as',
       skills: [
+        ruby({ description: 'I have some experience in this languge.' }),
+        rails({ description: 'I have some experience in this framework.' }),
         elixir({ description: 'Just finished learning this over the past few months.' }),
         phoenixFramework({ description: 'Just finished learning this over the past few months.' }),
         flutter({ description: 'Using this only for hackathon.' }),

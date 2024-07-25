@@ -27,11 +27,12 @@ const mainSectionData = {
     <div style="text-align: justify">
       <p>
         I'm a Senior Backend Engineer with expertise in Golang, Python, Typescript, and various technologies including MySQL, Elasticsearch, Redis, Kafka, Docker, and Kubernetes. I've developed impactful systems, improved search functionalities, led high-traffic projects, and re-architected services for efficiency.
-        My experience spans building chatbots from scratch, reducing deployment costs, and working on IoT projects. I’m also passionate about microcontrollers, electronics, and robotics. I am also actively learning Elixir and the Phoenix Framework to broaden my skill set.
+        My experience spans building chatbots from scratch, reducing deployment costs, and working on IoT projects. I’m also passionate about microcontrollers, electronics, and robotics. I am also actively learning Elixir and the Phoenix Framework to broaden my skill set. <br><br>
+        Relocating to Singapore, Malaysia, Japan, Middle East, Australia, United States, Canada, and Europe is a step I am ready and willing to take in order to join your esteemed company and contribute to its growth.
       </p>
     </div>
     `,
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }],
+  tags: [{ name: 'Open for opportunity' }, { name: 'Open for freelance' }, { name: 'Available for mentoring' }],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
